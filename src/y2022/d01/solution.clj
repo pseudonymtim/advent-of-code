@@ -41,7 +41,7 @@
        second))
 
 ;; How many Calories are those Elves carrying in total?
-(def calories-carried-by-to-three-carriers)
+(def calories-carried-by-top-three-carriers)
 (->> (take 3 desc-sorted-named-totals)
      (map second)
      (apply +))
