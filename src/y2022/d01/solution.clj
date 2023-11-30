@@ -2,6 +2,7 @@
   (:require [clojure.java.io :as io]))
 
 (def file "src/y2022/d01/input.txt")
+(def sample-file "src/y2022/d01/input_sample.txt")
 
 (defn read-data
   [file]
