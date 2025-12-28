@@ -6,5 +6,4 @@
                  [clojure.java-time "1.2.0"]
                  [cheshire "5.11.0"]
                  [aero "1.1.6"]
-                 [ragtime "0.8.1"]]
-  :main broadband-checkout-api.main)
+                 [ragtime "0.8.1"]])
