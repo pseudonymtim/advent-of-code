@@ -99,19 +99,9 @@
                (dec batteries-left)
                (str best-digits best-digit))))))
 
-;; part 2 answer
 (def part-2-answer
   (->> data
        (map (partial highest-joltage 12))
        (map ->long)
        (apply +)))
-
-
-
-
-
-
-
-
-
 
