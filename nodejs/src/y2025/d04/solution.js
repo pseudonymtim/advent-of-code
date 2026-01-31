@@ -1,4 +1,5 @@
 const fs = require('node:fs');
+const ld = require('lodash');
 
 const input = '/Users/tim/Documents/dev/advent-of-code/nodejs/src/y2025/d03/input.txt'
 const sampleInput = '/Users/tim/Documents/dev/advent-of-code/nodejs/src/y2025/d03/sample-input.txt'
@@ -89,3 +90,7 @@ console.log(
       .map((numbers) => biggetVoltage(numbers, 12))
       .reduce((total, num) => total + num)
   );
+
+let nnn;
+
+console.log(nnnn);
